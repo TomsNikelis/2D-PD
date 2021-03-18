@@ -45,7 +45,7 @@ public class ShowImages : MonoBehaviour
     }
     public void legs2Show(bool value)
     {
-        legs3.SetActive(value);
+        legs2.SetActive(value);
     }
     public void legs3Show(bool value)
     {
