@@ -958,7 +958,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ebcda08a5af4774da5e48ea1d9990d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slider: {fileID: 2143339985}
+  sliderX: {fileID: 2143339985}
+  sliderY: {fileID: 471178489}
   img1: {fileID: 867370913}
   img2: {fileID: 2099550133}
   img3: {fileID: 382350568}
@@ -1654,13 +1655,24 @@ MonoBehaviour:
   m_FillRect: {fileID: 1568469246}
   m_HandleRect: {fileID: 1471458298}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: 2
+  m_MaxValue: 3
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 2
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 332868200}
+        m_MethodName: changeSizeY
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &478980238
 GameObject:
   m_ObjectHideFlags: 0

@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 724
     height: 372
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 433, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 120
+  controlID: 124
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 140
+  controlID: 144
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -295,7 +295,7 @@ MonoBehaviour:
   m_MinSize: {x: 433, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 119
+  controlID: 60
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -399,9 +399,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c03b0000
-    m_LastClickedID: 15296
-    m_ExpandedIDs: 00000000b23b000000ca9a3b
+    m_SelectedIDs: e43b0000
+    m_LastClickedID: 15332
+    m_ExpandedIDs: 00000000da3b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -429,7 +429,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b23b0000
+    m_ExpandedIDs: 00000000da3b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -522,7 +522,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 105
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -551,24 +551,24 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c6dfffff
-      m_LastClickedID: -8250
-      m_ExpandedIDs: a0deffffc6dfffff4efbffffba3a0000
+      scrollPos: {x: 0, y: 70}
+      m_SelectedIDs: a6390000
+      m_LastClickedID: 14758
+      m_ExpandedIDs: 62fbffffd43a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: ImageLegs2
-        m_OriginalName: ImageLegs2
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 15104
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -614,9 +614,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 196.10733, y: 228.42412, z: -43.25}
+    m_Target: {x: 441.67255, y: 181.86714, z: -43.25}
     speed: 2
-    m_Value: {x: 196.10733, y: 228.42412, z: -43.25}
+    m_Value: {x: 441.67255, y: 181.86714, z: -43.25}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0

@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class ChangeSize : MonoBehaviour
 {
-    public GameObject slider;
+    public GameObject sliderX;
+    public GameObject sliderY;
     public GameObject img1;
     public GameObject img2;
     public GameObject img3;
@@ -18,15 +19,31 @@ public class ChangeSize : MonoBehaviour
 
     public void changeSizeX()
     {
-        float value = slider.GetComponent<Slider>().value;
-        img1.transform.localScale = new Vector2(1F * value, value) ;
-        img2.transform.localScale = new Vector2(1F * value, value);
-        img3.transform.localScale = new Vector2(1F * value, value);
-        img4.transform.localScale = new Vector2(1F * value, value);
-        img5.transform.localScale = new Vector2(1F * value, value);
-        img6.transform.localScale = new Vector2(1F * value, value);
-        img7.transform.localScale = new Vector2(1F * value, value);
-        img8.transform.localScale = new Vector2(1F * value, value);
-        img9.transform.localScale = new Vector2(1F * value, value);
+        float valueX = sliderX.GetComponent<Slider>().value;
+        float valueY = sliderY.GetComponent<Slider>().value;
+        img1.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+        img2.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+        img3.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+        img4.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+        img5.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+        img6.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+        img7.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+        img8.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+        img9.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+
+    }
+    public void changeSizeY()
+    {
+        float valueX = sliderX.GetComponent<Slider>().value;
+        float valueY = sliderY.GetComponent<Slider>().value;
+        img1.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+        img2.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+        img3.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+        img4.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+        img5.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+        img6.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+        img7.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+        img8.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
+        img9.transform.localScale = new Vector2(1F * valueX, 1F * valueY);
     }
 }
