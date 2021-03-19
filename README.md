@@ -1,4 +1,5 @@
-#2D-PD Unity darbs
+# 2D-PD Unity darbs
+#### Checkbox izskatās tukši, bet viņi ir checkoti.
 
 - [x] Projekta uzsākšana
 - [x] Attēlu ievietošana
